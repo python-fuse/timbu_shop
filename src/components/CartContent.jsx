@@ -9,7 +9,7 @@ const CartContent = () => {
   return (
     <div className="left flex-1 space-y-4 ">
       {cartItems.length > 0 ? (
-        cartItems.map((item) => <CartItem item={item} />)
+        cartItems.map((item) => <CartItem key={item.id} item={item} />)
       ) : (
         <p>
           No items in your cart. <br /> Shop to see your items here
