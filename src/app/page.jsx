@@ -1,10 +1,15 @@
-import Header from "@/components/Header";
-import Hero from "@/components/Hero";
-import LatestMovies from "@/components/NewReleases";
+import Carousel from "@/components/Carousel";
+import Links from "@/components/Links";
+import Products from "@/components/Products";
 
 const App = () => {
-  return <>
-  </>;
+  return (
+    <div className="pt-2 pb-4">
+      <Links />
+      <Carousel />
+      <Products />
+    </div>
+  );
 };
 
 export default App;

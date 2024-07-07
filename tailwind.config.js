@@ -10,7 +10,7 @@ module.exports = {
       colors: {
         link: "#5a2c17",
         primary: "#3b3b3bc0",
-        secondary: "rgba(183, 184, 188, 1)",
+        secondary: "#D9D9D9",
       },
     },
   },
