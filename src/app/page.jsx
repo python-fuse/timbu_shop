@@ -1,6 +1,6 @@
-import Carousel from "@/components/Carousel";
-import Links from "@/components/Links";
-import Products from "@/components/Products";
+import Carousel from "../components/Carousel";
+import Links from "../components/Links";
+import Products from "../components/Products";
 
 const App = () => {
   return (

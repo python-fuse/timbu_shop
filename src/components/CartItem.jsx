@@ -1,11 +1,15 @@
 "use client";
 
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { FaMinus, FaPlus, FaTrash } from "react-icons/fa";
+import { CartContext } from "./Cart";
+import { useToast } from "./ToastContext";
 
 const CartItem = ({ item }) => {
   const [itemCount, setCount] = useState(1);
+  const { removeFromCart } = useContext(CartContext);
+
   return (
     <div className="flex space-x-4 lg:max-h-[200px]">
       <Image
@@ -28,7 +32,11 @@ const CartItem = ({ item }) => {
         </p>
         <div className="flex justify-between">
           <Counter count={itemCount} setC={setCount} />
-          <button>
+          <button
+            onClick={() => {
+              removeFromCart(item.id);
+            }}
+          >
             <FaTrash className="text-red-500" />
           </button>
         </div>

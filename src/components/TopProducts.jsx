@@ -36,7 +36,7 @@ const TopProducts = () => {
   ];
 
   return (
-    <div className="grid lg:grid-cols-5 gap-4">
+    <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-4 place-content-center">
       {items.map((item, idx) => {
         return <ItemCard key={idx} item={item} />;
       })}

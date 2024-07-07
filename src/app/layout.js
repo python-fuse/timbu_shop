@@ -1,7 +1,7 @@
-import { Inter, Poppins } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
-import Nav from "@/components/Nav";
-import { CartProvider } from "@/components/Cart";
+import { CartProvider } from "../components/Cart";
+import Nav from "../components/Nav";
 
 const font = Poppins({ subsets: ["latin"], weight: ["500"] });
 
