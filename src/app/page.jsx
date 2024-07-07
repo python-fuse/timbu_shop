@@ -3,13 +3,8 @@ import Hero from "@/components/Hero";
 import LatestMovies from "@/components/NewReleases";
 
 const App = () => {
-  return (
-    <>
-      <Header />
-      <Hero />
-      <LatestMovies />
-    </>
-  );
+  return <>
+  </>;
 };
 
 export default App;
