@@ -61,16 +61,22 @@ const CheckoutOptions = () => {
             <div className="flex justify-between items-start">
               <div className="flex space-x-2 ">
                 <input type="radio" />
-                <Image src="/master.png" width={100} height={100} />
+                <Image src="/master.png" width={50} height={50} className="" />
               </div>
 
-              <div className="">
+              <div className="flex flex-col justify-between">
                 <p>Pay with Mastercard</p>
-                <small>Default card | Expire: 04/2027</small>
-                <input type="text" placeholder="CVV/CVC" />
+                <small className="text-xs">
+                  Default card | Expire: 04/2027
+                </small>
+                <input
+                  type="text"
+                  placeholder="CVV/CVC"
+                  className="p-2 rounded-lg border"
+                />
               </div>
 
-              <p className="cursor-pointer">
+              <p className="cursor-pointer hidden md:block lg:block">
                 <span className="cursor-pointer hover:text-link">Edit</span> |{" "}
                 <span className="cursor-pointer hover:text-link">Remove</span>
               </p>
