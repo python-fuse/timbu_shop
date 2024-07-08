@@ -3,7 +3,7 @@ import React from "react";
 
 const Links = () => {
   return (
-    <div className="flex justify-center space-x-10">
+    <div className="flex justify-center space-x-4 lg:space-x-10">
       <Link
         href="#"
         className="text-link font-[400] text-lg hover:font-semibold"
