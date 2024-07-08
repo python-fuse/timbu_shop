@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Summary = () => {
@@ -28,9 +29,12 @@ const Summary = () => {
           </tr>
         </tbody>
       </table>
-      <button className="rounded-2xl bg-link text-white p-4 hover:bg-[#401C0E] duration-300">
+      <Link
+        href="/checkout"
+        className="rounded-2xl text-center bg-link text-white p-4 hover:bg-[#401C0E] duration-300"
+      >
         Checkout
-      </button>
+      </Link>
       <hr />
       <p>
         Estimated delivery by <strong>27 May, 2026</strong>

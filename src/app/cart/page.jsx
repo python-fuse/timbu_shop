@@ -1,7 +1,7 @@
 import CartContent from "../../components/CartContent";
 import Summary from "../../components/Summary";
 
-const page = () => {
+const CartPage = () => {
   return (
     <div className="p-2 flex flex-col min-h-screen">
       <h2 className="text-5xl">Cart</h2>
@@ -16,4 +16,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default CartPage;
