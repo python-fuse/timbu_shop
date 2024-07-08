@@ -18,6 +18,8 @@ const CartContent = () => {
             shop
           </Link>{" "}
           to see them here.
+          <br />
+          You can also remove items from your cart
         </p>
       )}
     </div>
