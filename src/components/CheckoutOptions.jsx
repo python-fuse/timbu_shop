@@ -5,7 +5,7 @@ import { FaCreditCard, FaPlus } from "react-icons/fa";
 
 const CheckoutOptions = () => {
   return (
-    <div className="flex flex-col space-y-2 w-1/2 mt-2 ">
+    <div className="flex flex-col space-y-2 w-full  mt-2 ">
       <Accordion variant="splitted">
         <AccordionItem key="1" aria-label="acc 1" title="Contact Information">
           <div className="flex flex-col space-y-2">

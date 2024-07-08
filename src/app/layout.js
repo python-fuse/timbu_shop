@@ -6,7 +6,7 @@ import Nav from "../components/Nav";
 const font = Poppins({ subsets: ["latin"], weight: ["500"] });
 
 export const metadata = {
-  title: "Timbu Shop",
+  title: "Isabella",
   description: "Shop as you like, We'll deliver.",
 };
 
