@@ -8,7 +8,7 @@ import { CartContext } from "./Cart";
 const ItemCard = ({ item }) => {
   const { cartItems, addToCart } = useContext(CartContext);
   return (
-    <div className="flex flex-col w-[348px]   lg:max-w-[300px] space-y-2 shadow-lg p-4 mt-2 rounded-[10px] border-2 border-[#DBDBDB] shadow-[#4F4F4F40]">
+    <div className="flex flex-col w-[348px]   lg:w-[280px] space-y-2 shadow-lg p-4 mt-2 rounded-[10px] border-2 border-[#DBDBDB] shadow-[#4F4F4F40]">
       <Image
         src={`/${item.imagePath}`}
         height={195}
