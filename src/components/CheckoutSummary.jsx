@@ -52,7 +52,7 @@ const CheckoutSummary = () => {
       </Link>
 
       <p className="text-sm text-center">
-        By placing an order, you agree to Isabella's Shop's{" "}
+        By placing an order, you agree to Isabella&apos;s Shop&apos;s{" "}
         <span className="underline">Terms and Conditions</span> and{" "}
         <span className="underline">Privacy Policy</span>
       </p>
